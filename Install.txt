@@ -1,0 +1,10 @@
+COMANDOS
+composer install
+(el archivo env.example debe ser solo .env)
+php artisan key:generate
+antes de poner el comando para migrar se debe tener creada la DB en phpmyadmin 
+php artisan migrate
+php artisan db:seed
+npm install
+npm run dev
+php artisan serve
