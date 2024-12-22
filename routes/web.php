@@ -7,8 +7,11 @@ Route::get('/', function () {
 });
 
 
-// Ruta para la página de registro
-Route::get('/register', function () {
-    return view('auth.register');  // Vista dentro de resources/views/auth/register.blade.php
-})->name('register');
+Route::get('/laws', function () {
+    return view('laws');
+})->name('laws');
 
+// Ruta para la página Sobre Nosotros
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
