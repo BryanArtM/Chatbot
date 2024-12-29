@@ -54,30 +54,25 @@
         </div>
     </section>
 
-    <!-- Sección: Nuestro Equipo -->
-    <section class="py-16 px-10 text-center" data-aos="fade-up">
-        <h2 class="text-3xl text-red-400 font-bold mb-4">Nuestro Equipo</h2>
-        <p class="max-w-4xl mx-auto text-gray-300 mb-8">
-            Detrás de <strong>Casino Royale</strong> hay un equipo apasionado y profesional, comprometido con ofrecer la mejor experiencia de juego.
-        </p>
-        <div class="grid md:grid-cols-3 gap-6">
-            <div class="bg-gray-700 p-6 rounded-lg shadow-md">
-                <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="CEO" class="w-24 h-24 mx-auto rounded-full mb-4">
-                <h4 class="text-xl font-bold">Carlos Ramírez</h4>
-                <p class="text-red-400">CEO & Fundador</p>
-            </div>
-            <div class="bg-gray-700 p-6 rounded-lg shadow-md">
-                <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="CMO" class="w-24 h-24 mx-auto rounded-full mb-4">
-                <h4 class="text-xl font-bold">Ana López</h4>
-                <p class="text-red-400">CMO</p>
-            </div>
-            <div class="bg-gray-700 p-6 rounded-lg shadow-md">
-                <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="CTO" class="w-24 h-24 mx-auto rounded-full mb-4">
-                <h4 class="text-xl font-bold">David Pérez</h4>
-                <p class="text-red-400">CTO</p>
-            </div>
+<!-- Sección: Nuestro Equipo -->
+<section class="py-16 px-10 text-center" data-aos="fade-up">
+    <h2 class="text-3xl text-red-400 font-bold mb-4">Nuestro Equipo</h2>
+    <p class="max-w-4xl mx-auto text-gray-300 mb-8">
+        Detrás de <strong>Casino Royale</strong> hay un equipo apasionado y profesional, comprometido con ofrecer la mejor experiencia de juego.
+    </p>
+    <div class="flex justify-center gap-6">
+        <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+            <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="CEO" class="w-24 h-24 mx-auto rounded-full mb-4">
+            <h4 class="text-xl font-bold">Fernando Solano</h4>
+            <p class="text-red-400">Estudiante de X ciclo de la UNS</p>
         </div>
-    </section>
+        <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+            <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="CTO" class="w-24 h-24 mx-auto rounded-full mb-4">
+            <h4 class="text-xl font-bold">Bryan Arteaga</h4>
+            <p class="text-red-400">Estudiante de X ciclo de la UNS</p>
+        </div>
+    </div>
+</section>
 
     <!-- Llamada a la acción -->
     <section class="py-16 px-10 text-center bg-red-500 text-white" data-aos="fade-up">
